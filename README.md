@@ -32,7 +32,7 @@ int main(void) {
 }
 ```
 
-#### Initialization `Intit()`
+#### Initialization: `Intit()`
 ```C++
 void init(){
     for(int i = 0; i < V; i++){
@@ -42,7 +42,7 @@ void init(){
     dist[src] = 0; //source node distance = 0
 }
 ```
-#### Find the nearest node `getNearst()`
+#### Find the nearest node: `getNearst()`
 ```C++
 int getNearst(){
     int minvalue = INF;
@@ -58,7 +58,7 @@ int getNearst(){
 }
 ```
 
-#### Dijkstra `dijkstra()`
+#### Dijkstra: `dijkstra()`
 ```C++
 void dijkstra(){
     for(int i = 0; i < V; i++){
@@ -75,8 +75,9 @@ void dijkstra(){
         }
     }
 }
+```
 
-#### Display the shortest route `diaplay()`
+#### Display the shortest route: `diaplay()`
 ```C++
 void display(){
     cout << "Node:\t\tCost\t\tPath" << endl;
